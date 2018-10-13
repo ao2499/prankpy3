@@ -7,7 +7,7 @@ from multiprocessing import Pool, Process
 from humanfriendly import format_timespan, format_size, format_number, format_length
 import time, random, asyncio, timeit, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, urllib, urllib.parse, ast, pafy, youtube_dl
 botStart = time.time()
-prank = LineClient(authToken=ExmEKHrOyzZfGs0wwo5b.zynIzbunSCvNudjdzkF7oW.nJTG2jaZzAdY/5C2tzq18nbhSJO6a/ZnWGVMSdbTN9k=')
+prank = LineClient(authToken='ExmEKHrOyzZfGs0wwo5b.zynIzbunSCvNudjdzkF7oW.nJTG2jaZzAdY/5C2tzq18nbhSJO6a/ZnWGVMSdbTN9k=')
 prank.log("Auth Token : " + str(prank.authToken))
 channel = LineChannel(prank)
 prank.log("Channel Access Token : " + str(channel.channelAccessToken))
